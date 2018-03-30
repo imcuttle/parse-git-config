@@ -9,12 +9,12 @@
 
 const fs = require('fs');
 const path = require('path');
-const util = require('util');
+const pify = require('pify');
 const ini = require('ini');
 const configPath = require('git-config-path');
 const expand = require('expand-tilde');
-const read = util.promisify(fs.readFile);
-const stat = util.promisify(fs.stat);
+const read = pify(fs.readFile);
+const stat = pify(fs.stat);
 
 /**
  * Asynchronously parse a `.git/config` file. If only the callback is passed,
