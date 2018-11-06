@@ -2,17 +2,12 @@
   "name": "@moyuyc/parse-git-config",
   "description": "Parse `.git/config` into a JavaScript object. sync or async.",
   "version": "2.0.1",
-  "homepage": "https://github.com/jonschlinkert/parse-git-config",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
     "Jon Schlinkert (http://twitter.com/jonschlinkert)",
     "Sam Holmes (https://samholmes.net)",
-    "(https://github.com/js-n)"
+    " (https://github.com/js-n)"
   ],
-  "repository": "jonschlinkert/parse-git-config",
-  "bugs": {
-    "url": "https://github.com/jonschlinkert/parse-git-config/issues"
-  },
   "license": "MIT",
   "files": [
     "index.js"
@@ -63,5 +58,16 @@
     "lint": {
       "reflinks": true
     }
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imcuttle/parse-git-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imcuttle/parse-git-config/issues"
+  },
+  "homepage": "https://github.com/imcuttle/parse-git-config#readme"
 }
