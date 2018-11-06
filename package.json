@@ -1,7 +1,7 @@
 {
   "name": "@moyuyc/parse-git-config",
   "description": "Parse `.git/config` into a JavaScript object. sync or async.",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
     "Jon Schlinkert (http://twitter.com/jonschlinkert)",
